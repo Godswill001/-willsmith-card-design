@@ -1,0 +1,88 @@
+.main{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(0,0,0);
+}
+.master{
+    width: 800px;
+    height: 25px;
+    display: flex;
+    gap: 20px;
+    
+
+}
+.middle{
+    width: 210px;
+    height: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+margin-top: 0%,auto;
+}
+  
+.sub1{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(29, 240, 10);
+}
+.sub2{
+    width: 80px;
+    height:5px;
+    background-color: rgb(68, 3, 3);
+}
+.sub3{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(3, 37, 70);
+}
+.sub4{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(212, 233, 22);
+}
+.sub5{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(7, 2, 32);
+}
+.sub6{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(29, 240, 10);
+}
+.sub7{
+    color: white;
+    background-color: rgb(18, 172, 199);
+    width: 90px;
+    height: 20px;
+}
+.sub8{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: rgb(216, 17, 93);
+}
+.sub9{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: rgb(13, 228, 23);
+}
+.sub10{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: rgb(185, 14, 143);
+}
+.sub11{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: rgb(221, 218, 20);
+}
+.master2,h6{
+    width:500px;
+    height:65px;
+    display: flex;
+    gap: 15px;
+}
