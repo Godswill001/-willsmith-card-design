@@ -1,4 +1,126 @@
-.main{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia', sans-serif;
+}
+
+.body {
+    max-width: 800px;
+    height: 350px;
+    margin: 100px auto;
+    background-color: #222;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line {
+    width: 125px;
+    height: 8px;
+    background-color: chartreuse;
+}
+
+.flex .line:nth-child(2) {
+    background-color: darkblue;
+}
+
+.flex .line:nth-child(3) {
+    background-color: crimson;
+}
+
+.flex .line:nth-child(4) {
+    background-color: yellow;
+}
+
+.flex .line:nth-child(5) {
+    background-color: plum;
+}
+
+.flex .line:nth-child(6) {
+    background-color: dodgerblue;
+}
+
+.hero-caption {
+    max-width: 260px;
+    margin: 80px auto auto;
+    /* transform: translateY(-50%, -50%); */
+    /* background-color: aqua; */
+}
+
+.hero-caption h2 {
+    text-align: center;
+    margin-bottom: -8px;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    display: block;
+}
+
+.hero-caption h6 {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 40px;
+}
+
+.flex2 .line1 {
+    background-color: aqua;
+    padding: 7px 30px;
+    text-align: center;
+}
+
+.flex2 .line2:nth-child(2) {
+    background-color: #e75480;
+    color: #fff;
+    padding: 7px 30px;
+    text-align: center;
+}
+
+.flex2 .line3:nth-child(3) {
+    background-color: greenyellow;
+    padding: 7px 30px;
+    text-align: center;
+}
+
+.flex2 .line4:nth-child(4) {
+    background-color: purple;
+    padding: 7px 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.flex2 .line5:nth-child(5) {
+    background-color: rgb(231, 227, 0);
+    padding: 7px 30px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* .main{
     width: 600px;
     height: 250px;
     background-color: rgb(0,0,0);
@@ -85,4 +207,4 @@ margin-top: 0%,auto;
     height:65px;
     display: flex;
     gap: 15px;
-}
+} */
