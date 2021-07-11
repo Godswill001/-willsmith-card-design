@@ -13,7 +13,7 @@
     overflow: hidden;
 }
 
-.flex {
+.flexs {
     display: flex;
     gap: 3px;
     justify-content: space-between;
@@ -27,31 +27,29 @@
     background-color: chartreuse;
 }
 
-.flex .line:nth-child(2) {
+.flexs .line:nth-child(2) {
     background-color: darkblue;
 }
 
-.flex .line:nth-child(3) {
+.flexs .line:nth-child(3) {
     background-color: crimson;
 }
 
-.flex .line:nth-child(4) {
+.flexs .line:nth-child(4) {
     background-color: yellow;
 }
 
-.flex .line:nth-child(5) {
+.flexs .line:nth-child(5) {
     background-color: plum;
 }
 
-.flex .line:nth-child(6) {
+.flexs .line:nth-child(6) {
     background-color: dodgerblue;
 }
 
 .hero-caption {
     max-width: 260px;
     margin: 80px auto auto;
-    /* transform: translateY(-50%, -50%); */
-    /* background-color: aqua; */
 }
 
 .hero-caption h2 {
